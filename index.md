@@ -10,14 +10,14 @@ page_sections:
   - link: "/"
     link_text: Home
   - link: "#features"
-    link_text: Features
+    link_text: Fishing
   - link: "#pricing"
     link_text: Pricing
   - link: "#team"
-    link_text: Team
+    link_text: Lodge
   cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
+    url: /
+    button_text: Book Now
 - template: hero-banner-w-image
   block: hero-2
   headline: Great Bonefishing Company
@@ -26,9 +26,7 @@ page_sections:
     enabled: true
     url: "/pricing"
     button_text: Book a trip today
-  image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
+
   background_image: "/uploads/2020/05/18/ezgif-3-984fa3fdd0b6.gif"
 - template: content-feature
   block: feature-1
