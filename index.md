@@ -78,6 +78,11 @@ page_sections:
   block: media-1
   image: "/uploads/2020/05/18/ezgif-3-984fa3fdd0b6.gif"
   caption: ''
+menu:
+  main:
+    identifier: home
+    weight: 1
+    title: Home
 
 ---
 foo bar

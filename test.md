@@ -14,6 +14,10 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: ''
+menu:
+  main:
+    weight: 2
+    title: Test
 published: false
 
 ---
