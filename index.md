@@ -75,6 +75,10 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2020/05/18/ezgif-3-984fa3fdd0b6.gif"
+  caption: ''
 
 ---
 foo bar
