@@ -3,3 +3,4 @@ tasks:
     command: gem install jekyll bundler
     command: bundle install
     command: bundle exec jekyll build
+    command: bundle exec jekyll serve
