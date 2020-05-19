@@ -1,6 +1,5 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mattstyles333/ubuild) 
 
-![uBuild Blocks](uploads/2018/06/21/theme.png)
 
 # Great Bonefishing Website
 To do:
