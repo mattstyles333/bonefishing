@@ -23,8 +23,8 @@ sections:
   label: Config
 upload_dir: gbf/uploads
 public_path: gbf/uploads
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: gbf/uploads
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
