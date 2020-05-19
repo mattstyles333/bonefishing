@@ -108,6 +108,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Footer goes here 
+- template: form
+  block: form
 menu:
   main:
     identifier: home
