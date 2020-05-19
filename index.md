@@ -16,7 +16,7 @@ page_sections:
   - link: "#team"
     link_text: Lodge
   cta:
-    url: /
+    url: "/"
     button_text: Book Now
 - template: hero-banner-w-image
   block: hero-2
@@ -26,7 +26,6 @@ page_sections:
     enabled: true
     url: "/pricing"
     button_text: Book a trip today
-
   background_image: "/gbf/uploads/flats-bonefishing.gif"
 - template: content-feature
   block: feature-1
@@ -40,8 +39,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Best Value/Cheapest</strong><span class="light">&nbsp; Google maps for the image?</span>
-  content: Touch on the ferry, and why it's cheaper- also the lodge to explore the island for an overnight package.
+  headline: <strong>Best Value/Cheapest</strong><span class="light">&nbsp; Google
+    maps for the image?</span>
+  content: Touch on the ferry, and why it's cheaper- also the lodge to explore the
+    island for an overnight package.
   media:
     image: "/gbf/uploads/tailing-bonefish.jpg"
     alt_text: Customize Blocks
@@ -77,8 +78,7 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: Footer goes here 
-
+  content: Footer goes here
 menu:
   main:
     identifier: home
