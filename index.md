@@ -62,8 +62,8 @@ page_sections:
     create new sites and make them fully customizable. \U0001F447"
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
+  image: "/gbf/uploads/endless-flats.jpg"
+  caption: Caption
 - template: detail-content
   block: text-1
   headline: Steps to Build a Site!
