@@ -27,7 +27,7 @@ page_sections:
     url: "/pricing"
     button_text: Book a trip today
 
-  background_image: "/uploads/2020/05/18/ezgif-3-984fa3fdd0b6.gif"
+  background_image: "/gbf/uploads/flats-bonefishing.gif"
 - template: content-feature
   block: feature-1
   media_alignment: Left
