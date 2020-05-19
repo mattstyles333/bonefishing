@@ -1,22 +1,18 @@
-<section class="block block-media-2">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <figure>
-          <img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}">
-          {% if section.image_1.caption %}
-          <figcaption>{{ section.image_1.caption }}</figcaption>
-          {% endif %}
-        </figure>        
-      </div>
-      <div class="column">
-        <figure>
-            <img src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}">
-            {% if section.image_2.caption %}
-            <figcaption>{{ section.image_2.caption }}</figcaption>
-            {% endif %}
-        </figure>        
-      </div>
-    </div>
+<section class="block block-gallery">
+  <div class="gallery">
+    <figure>
+      <img src="{{ section.image | relative_url }}" alt="{{ section.caption }}">
+      {% if section.caption %}
+      <figcaption>{{ section.caption }}</figcaption>
+      {% endif %}
+    </figure>
+
+
+    <figure>
+      <img src="{{ section.image2 | relative_url }}" alt="{{ section.caption }}">
+      {% if section.caption %}
+      <figcaption>{{ section.caption }}</figcaption>
+      {% endif %}
+    </figure>
   </div>
 </section>

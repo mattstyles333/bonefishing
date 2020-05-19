@@ -35,7 +35,7 @@ page_sections:
     class="light">in the Turks and Caicos</span>
   content: Trustpilot/Testimonials, and link to fishing page.
   media:
-    image: "/gbf/uploads/bonefish-guide.jpg"
+    image: "/gbf/uploads/waterbone.jpg"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
@@ -43,7 +43,7 @@ page_sections:
   headline: <strong>Best Value/Cheapest</strong><span class="light">&nbsp; Google maps for the image?</span>
   content: Touch on the ferry, and why it's cheaper- also the lodge to explore the island for an overnight package.
   media:
-    image: "/gbf/uploads/tailing-bonefish.jpg"
+    image: "/gbf/uploads/maps.png"
     alt_text: Customize Blocks
 - template: content-feature
   block: feature-1
@@ -54,6 +54,36 @@ page_sections:
   media:
     image: "/gbf/uploads/lodge-on-bottle-creek.jpg"
     alt_text: uBuild Blocks Mock-Up
+
+- template: full-width-media-element
+  block: gallery
+  parralax: False
+  title: Gallery
+  image: "/gbf/uploads/2-guys.jpg"
+  image2: "/gbf/uploads/big-bone.jpg"
+  image3: "/gbf/uploads/big-youth.jpg"
+  image4: "/gbf/uploads/bonefish-guide.jpg"
+  image5: "/gbf/uploads/bonefish-steve.jpg"
+  image6: "/gbf/uploads/bonefish-steve2.jpg"
+  image7: "/gbf/uploads/biggy.jpeg"
+  image8: "/gbf/uploads/bonefish.jpg"
+  image9: "/gbf/uploads/clear-water.jpg"
+
+- template: full-width-media-element
+  block: gallery
+  parralax: False
+  title: Gallery2
+  image: "/gbf/uploads/diy.jpg"
+  image2: "/gbf/uploads/diy2.jpg"
+  image3: "/gbf/uploads/diy3.jpg"
+  image4: "/gbf/uploads/diy4.jpg"
+  image5: "/gbf/uploads/lodge-on-bottle-creek.jpg"
+  image6: "/gbf/uploads/face-on.jpg"
+  image7: "/gbf/uploads/father-and-son.jpg"
+  image8: "/gbf/uploads/howard.jpg"
+  image9: "/gbf/uploads/heavy-small.jpg"
+
+
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
@@ -78,7 +108,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Footer goes here 
-
 menu:
   main:
     identifier: home

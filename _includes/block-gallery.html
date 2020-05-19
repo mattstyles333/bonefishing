@@ -1,0 +1,53 @@
+<section class="block block-gallery">
+    {% if section.title %}
+    <h2 >
+        {{ section.title }}
+    </h2 >
+    {% endif %}
+    <div class="gallery">
+        <div class="gallery-img" style="background-image: url({{ section.image | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image2 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image3 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image4 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image5 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image6 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image7 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image8 | relative_url }}); height: 400px; width: 400px;"></div>
+        <div class="gallery-img" style="background-image: url({{ section.image9 | relative_url }}); height: 400px; width: 400px;"></div>
+
+</div>
+  </section>
+  <style>
+  .gallery {
+
+    display:flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .gallery-img {
+    flex: 0 32%;
+  width: 32%;
+  padding-bottom: 18%; /* 32:18, i.e. 16:9 */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block.block-gallery > h2{
+    text-align: center;
+    padding:72px;
+    font-weight: 300;
+
+}
+  </style>
+    {% if section.parralax %}
+    <style>
+          .gallery-img {
+    background:no-repeat center center fixed;
+          }
+    </style>
+    {% endif %}
