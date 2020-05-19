@@ -31,23 +31,29 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  headline: <strong>The Best Bonefisihng<span class="light">&nbsp;</span></strong><span
+    class="light">in the Turks and Caicos</span>
+  content: Trustpilot/Testimonials, and link to fishing page.
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
+    image: "/gbf/uploads/bonefish-guide.jpg"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
+  headline: <strong>Best Value/Cheapest</strong><span class="light">&nbsp; Google maps for the image?</span>
+  content: Touch on the ferry, and why it's cheaper- also the lodge to explore the island for an overnight package.
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/gbf/uploads/tailing-bonefish.jpg"
     alt_text: Customize Blocks
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>Flexibility/Lodge<span class="light">&nbsp;</span></strong><span
+    class="light"> </span>
+  content: push lodge, but touch on self-guided/kayaks.
+  media:
+    image: "/gbf/uploads/lodge-on-bottle-creek.jpg"
+    alt_text: uBuild Blocks Mock-Up
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
@@ -71,11 +77,8 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: Hello world! ❤︎
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2020/05/18/ezgif-3-984fa3fdd0b6.gif"
-  caption: ''
+  content: Footer goes here 
+
 menu:
   main:
     identifier: home
