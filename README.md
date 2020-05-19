@@ -2,6 +2,15 @@
 
 ![uBuild Blocks](uploads/2018/06/21/theme.png)
 
+# Great Bonefishing Website
+To do:
+Drift integration,
+header and footer templating
+integrate formspree
+Images
+Finish homepage design (with all blocks that will be needed/wanted)
+
+
 # uBuild Jekyll Theme
 
 [View the announcement post on Forestry.io](https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/#/)
