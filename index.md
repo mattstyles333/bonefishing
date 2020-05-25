@@ -26,7 +26,7 @@ page_sections:
     enabled: true
     url: "/content"
     button_text: Book a trip today
-
+  hp: true
   background_image: "/gbf/uploads/flats-bonefishing.gif"
 - template: content-feature
   block: feature-1

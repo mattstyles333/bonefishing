@@ -1,19 +1,45 @@
-<section class="block block-hero-2" 
-{% if section.background_image %}
-style="background-image: url('{{ section.background_image | relative_url }}')"
-{% endif %}>
+<section
+  class="block block-hero-2"
+  {%
+  if
+  section.background_image
+  %}
+  style="background-image: url('{{ section.background_image | relative_url }}')"
+  id="video"
+  {%
+  endif
+  %}
+>
   <div class="container">
     <div class="columns">
       <div class="column text">
         <h1><span class="light">{{ section.headline }}</span></h1>
         <p>{{ section.content }}</p>
         {% if section.cta and section.cta.enabled == true %}
-        <a class="button primary inverted" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+        <a class="button primary inverted" href="{{ section.cta.url }}"
+          >{{ section.cta.button_text }}</a
+        >
         {% endif %}
       </div>
       <div class="column media">
-        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}">
+        <img
+          src="{{ section.image.image | relative_url }}"
+          alt="{{ section.image.alt_text }}"
+        />
       </div>
     </div>
   </div>
 </section>
+
+{% if section.hp %}
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+  document.getElementById("video").addEventListener("ended", myHandler, false);
+  function myHandler(e) {
+    console.log('ended');
+    this.window.scrollBy(0, window.innerHeight);
+  }
+</script> -->
+{% endif %}
