@@ -1,0 +1,28 @@
+---
+label: sticky-flip
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: sticky-flip
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: content_header
+  type: text
+  config:
+    required: false
+  label: Content Header
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
