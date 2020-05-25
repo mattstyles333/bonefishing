@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: Content Page
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
@@ -20,14 +20,14 @@ page_sections:
     button_text: Book Now
 - template: hero-banner-w-image
   block: hero-2
-  headline: Great Bonefishing Company
+  headline: Content Page Text
   content: We specialize in the best bonefishing around.
   cta:
     enabled: true
     url: "/pricing"
-    button_text: Book a trip today
+    button_text: Content Page CTA text
 
-  background_image: "/gbf/uploads/flats-bonefishing.gif"
+  background_image: "/gbf/uploads/release.jpg"
 - template: sticky
   block: sticky
   headline: headline
