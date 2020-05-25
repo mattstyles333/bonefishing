@@ -3,7 +3,7 @@
         <img src="{{ section.image | relative_url }}" alt="{{ section.caption }}">
     </div>
     <div class="content">
-          <h3>{{ section.headline }}</h3>
+          <h2  class="sticky-header">{{ section.headline }}</h3>
           <p>{{ section.content }}</p>
       
 
@@ -11,7 +11,12 @@
   </section>
 
   <style>
-
+      /* ToDo: Need to style for mobile */
+  h2.sticky-header {
+    font-size: 3rem;
+    text-align: center;
+    padding:20px;
+  }
   section.block-sticky{
     position: relative;
       height: auto;
@@ -30,6 +35,7 @@
   .block-sticky .imgbox img {
       position:absolute;
 
+        max-height: 100%;
       max-width: 100%;
 
   }

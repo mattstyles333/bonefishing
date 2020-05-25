@@ -24,7 +24,7 @@ page_sections:
   content: We specialize in the best bonefishing around.
   cta:
     enabled: true
-    url: "/pricing"
+    url: "/content"
     button_text: Book a trip today
 
   background_image: "/gbf/uploads/flats-bonefishing.gif"
@@ -105,26 +105,14 @@ page_sections:
     Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
     preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li></ol>
-- template: simple-footer
-  block: footer-1
-  content: Footer goes here 
 - template: form
   block: form
 
-- template: sticky
-  block: sticky
-  flip: False
-  headline: headline
-  content: LORUM IPSURM LORUM IPSURM LORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURM
-  image: "/gbf/uploads/diy.jpg"
-  image2: "/gbf/uploads/diy2.jpg"
-  image3: "/gbf/uploads/diy3.jpg"
-  image4: "/gbf/uploads/diy4.jpg"
-  image5: "/gbf/uploads/lodge-on-bottle-creek.jpg"
-  image6: "/gbf/uploads/face-on.jpg"
-  image7: "/gbf/uploads/father-and-son.jpg"
-  image8: "/gbf/uploads/howard.jpg"
-  image9: "/gbf/uploads/heavy-small.jpg"
+- template: simple-footer
+  block: footer-1
+  content: Footer goes here 
+
+
 menu:
   main:
     identifier: home
