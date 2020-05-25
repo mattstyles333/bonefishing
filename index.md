@@ -110,6 +110,21 @@ page_sections:
   content: Footer goes here 
 - template: form
   block: form
+
+- template: sticky
+  block: sticky
+  flip: False
+  headline: headline
+  content: LORUM IPSURM LORUM IPSURM LORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURMLORUM IPSURM
+  image: "/gbf/uploads/diy.jpg"
+  image2: "/gbf/uploads/diy2.jpg"
+  image3: "/gbf/uploads/diy3.jpg"
+  image4: "/gbf/uploads/diy4.jpg"
+  image5: "/gbf/uploads/lodge-on-bottle-creek.jpg"
+  image6: "/gbf/uploads/face-on.jpg"
+  image7: "/gbf/uploads/father-and-son.jpg"
+  image8: "/gbf/uploads/howard.jpg"
+  image9: "/gbf/uploads/heavy-small.jpg"
 menu:
   main:
     identifier: home
