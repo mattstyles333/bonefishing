@@ -1,11 +1,7 @@
 <section
-  class="block block-hero-2"
-  {%
-  if
-  section.background_image
-  %}
+  class="block block-hero-2" id="video" 
+  {% if section.background_image %}
   style="background-image: url('{{ section.background_image | relative_url }}')"
-  id="video"
   {%
   endif
   %}
@@ -31,15 +27,3 @@
   </div>
 </section>
 
-{% if section.hp %}
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript">
-
-  document.getElementById("video").addEventListener("ended", myHandler, false);
-  function myHandler(e) {
-    console.log('ended');
-    this.window.scrollBy(0, window.innerHeight);
-  }
-</script> -->
-{% endif %}
