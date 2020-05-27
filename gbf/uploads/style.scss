@@ -190,10 +190,14 @@ input.inverted::placeholder {
   align-items: center;
   padding: 16px 32px;
   padding: 1rem 2rem;
+  
 }
 .block-header-2--logo img {
   max-height: 24px;
   max-height: 3rem;
+  /* Convert logo to primary color #18404E */
+  filter: invert(19%) sepia(44%) saturate(709%) hue-rotate(149deg) brightness(92%) contrast(90%);
+  
 }
 .block-header-2--nav {
   display: -ms-flexbox;
@@ -718,4 +722,15 @@ body {
 ::selection {
   background: #ffedbc;
   color: #333;
+}
+.logo-text {
+
+  font-size: 2rem;
+  }
+.block-logo-text {
+  float: right;
+  padding-left:30px;
+  padding-top: 5px;
+  text-decoration: none;
+  color:$pc;
 }
