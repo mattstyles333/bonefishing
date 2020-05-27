@@ -343,7 +343,7 @@ input.inverted::placeholder {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
           justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: #18404E;
   color: var(--text);
   background-repeat: no-repeat;
