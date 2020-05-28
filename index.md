@@ -43,8 +43,8 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Best Value/Cheapest</strong><span class="light">&nbsp; Google
-    maps for the image?</span>
+  headline: <strong>Transport Provo</strong><span class="light"> Google maps for the
+    image?</span>
   content: Touch on the ferry, and why it's cheaper- also the lodge to explore the
     island for an overnight package.
   media:
