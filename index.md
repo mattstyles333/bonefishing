@@ -34,9 +34,9 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>The Best Bonefishing<span class="light"> </span></strong><span
+  headline: <strong>The Best Value Bonefishing<span class="light"> </span></strong><span
     class="light">in the Turks and Caicos</span>
-  content: Trustpilot/Testimonials, and link to fishing page. Put more text here
+  content: Trustpilot/Testimonials, and link to fishing page. Cheapest too
   media:
     image: "/gbf/uploads/waterbone.jpg"
     alt_text: uBuild Blocks Mock-Up
