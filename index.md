@@ -76,7 +76,35 @@ page_sections:
   media_alignment: Left
   headline: <strong>Flexibility/Lodge<span class="light">&nbsp;</span></strong><span
     class="light"> </span>
-  content: push lodge, but touch on self-guided/kayaks.
+  content: Our bonefishing rates for fishing and flyfishing in the Turks and Caicos
+    are some of the least expensive to be found. We offer a range of options from
+    self-guided flyfishing to guided on the flats and creeks of the islands contiguous
+    to Providenciales.The rate for a full day (7.30am – 2pm) is $450 (plus 12% tax)
+    for a single angler and guide or $650 (plus 12% tax) for two anglers and a guide.We
+    run flats boats that need to capable of planing in only inches of water and so
+    for this reason and also licensing/insurance – we have to limit the number of
+    guests to two per boat and guide.The options for fishing are very tide and weather
+    dependent. We won’t book you unless the conditions are right to ensure a comfortable
+    and productive fishing or flyfishing experience. We prefer to talk to you before
+    you commit to a trip to try and make the best recommendations that we can to ensure
+    that you enjoy your day on the flats of the Turks and Caicos Islands by matching
+    your skill and experience level to the water that we fish.Most of our bonefishing
+    takes place on the tidal flats of North Caicos and the Bottle Creek area. This
+    is a wide expanse of hard bottom flats that provide excellent wading and points
+    of concentration. Bonefish can be found on all tides, although the favoured way
+    to fish for them on a falling tide when they are coming down from the magroves
+    high on the flats and following channels and cuts towards deeper water.This period
+    of the tide offers the potential to see large numbers of fish in moderate sized
+    schools, but the challenge (there is always a challenge !) is to get their attention
+    and make them feed while they are moving around quickly.<a href="https://www.greatbonefishing.com/wp-content/uploads/2012/10/lift-e1351123475364.jpg"><img
+    src="https://www.greatbonefishing.com/wp-content/uploads/2012/10/lift-e1351123475364-300x225.jpg"
+    title="lift" width="300" height="225"></a>This can be an excellent time to try
+    light tackle fishing for bonefish with small jigs – as they can be cast quickly
+    and accurately, placing the jig with movement in front of the school.Any motion
+    is likely to draw their attention but you have to try and imbue some competition
+    into the group to force a strike.Wading on the flats of North Caicos when the
+    tide is low means ankle deep water and plenty of opportunities to spot tails from
+    afar.
   media:
     image: "/gbf/uploads/lodge-on-bottle-creek.jpg"
     alt_text: uBuild Blocks Mock-Up
