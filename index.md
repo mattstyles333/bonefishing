@@ -36,7 +36,28 @@ page_sections:
   media_alignment: Left
   headline: <strong>The Best Value Bonefishing<span class="light"> </span></strong><span
     class="light">in the Turks and Caicos</span>
-  content: Trustpilot/Testimonials, and link to fishing page. Cheapest too
+  content: Some of the best Turks and Caicos Bonefishing can be found on the bonefish
+    flats of Bottle Creek on <a href="https://www.greatbonefishing.com/flyfishing-for-bonefish-in-the-turks-and-caicos/north-caicos/"
+    title="North Caicos">North Caicos</a>. Whether guided fishing for bonefish on
+    the ankle deep flats or you prefer to try some <a href="https://www.greatbonefishing.com/diy-bonefishing/"
+    title="DIY Bonefishing">self-guided fishing</a>, there is easy access to the crystal
+    clear water and hard wading bottom of Bottle Creek. The vast expanse of water
+    ranging from mangroves to channels and small estuaries is largely unfished and
+    bonefish are easily stalked. There are very few places in the world that you have
+    a realistic chance at catching double-digit bonefish fly-fishing, but it happens
+    on a regular basis on the pristine flats of the Turks and Caicos Islands.The productive
+    flats are only minutes from embarking on the boat so you don’t waste a lot of
+    time running around the shallow banks to get to water that consistently hold fish.
+    This has the dual benefit of significantly lower fuel costs and so a less expensive
+    bonefishing experience as well as more time out on the water actually fishing!The
+    bonefish tend to be mid-size fish of up to a few pounds when commuting the flats
+    in schools . Larger bonefish can be found in singles and pairs cruising the flats
+    and willing to take a fly. The bonefish have likely never seen a <a href="https://www.greatbonefishing.com/flyfishing-for-bonefish-in-the-turks-and-caicos/"
+    title="Flyfishing for Bonefish in theTurks and Caicos">Crazy Charlie </a>or a
+    bonefish jig and so do not hestitate to investigate and can be quite aggressive
+    especially when in pairs/threes and feeding.Although many of the flats around
+    the prime tourist Island of Providenciales are well known and well fished……we
+    fish elsewhere…….
   media:
     image: "/gbf/uploads/waterbone.jpg"
     alt_text: uBuild Blocks Mock-Up
