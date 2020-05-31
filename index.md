@@ -47,10 +47,12 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Transport Provo</strong><span class="light"> Google maps for the
-    image?</span>
-  content: Touch on the ferry, and why it's cheaper- also the lodge to explore the
-    island for an overnight package.
+  headline: "<strong>Location and coming from Providenciales</strong>"
+  content: A 30 minute ferry ride ($55 return) from Leeward on Providenciales to Sandy
+    Point on North Caicos opens up the chance to fish on flats that have only been
+    fished by a few anglers before. Several flats are great wading - shallow and firm
+    - ideal for stalking tailing fish..............others are wide and sandy so that
+    you can see schools of bonefish meandering across from a distance away.
   media:
     image: "/gbf/uploads/maps.png"
     alt_text: Customize Blocks
