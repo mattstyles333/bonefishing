@@ -20,8 +20,8 @@ page_sections:
     button_text: Enquire
 - template: hero-banner-w-image
   block: hero-2
-  headline: Great Bonefishing Company
-  content: We specialize in the best bonefishing around.
+  headline: 'Great Bonefishing '
+  content: Discover the fabulous wading flats of North Caicos
   cta:
     enabled: true
     url: "/content"
