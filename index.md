@@ -25,7 +25,7 @@ page_sections:
   cta:
     enabled: true
     url: "/content"
-    button_text: Book a trip today
+    button_text: Enquire
   hp: true
   background_image: "/gbf/uploads/flats-bonefishing.gif"
   image:
