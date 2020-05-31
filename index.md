@@ -17,7 +17,7 @@ page_sections:
     link_text: Lodge
   cta:
     url: "/"
-    button_text: Book Now
+    button_text: Enquire
 - template: hero-banner-w-image
   block: hero-2
   headline: Great Bonefishing Company
