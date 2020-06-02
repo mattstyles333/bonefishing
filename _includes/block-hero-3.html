@@ -1,5 +1,5 @@
 <section
-  class="block block-hero-2"
+  class="block block-hero-3"
 
 >
 <div class="video-overlay">
@@ -11,7 +11,13 @@
     <div class="columns">
       <div class="column text">
         <div class="banner-card">
-            TEXT
+            <h1><span class="light">{{ section.headline }}</span></h1>
+            <p>{{ section.content }}</p>
+            {% if section.cta and section.cta.enabled == true %}
+            <a class="button primary" href="{{ section.cta.url }}"
+              >{{ section.cta.button_text }}</a
+            >
+            {% endif %}
         </div>
       </div>
 
@@ -21,10 +27,39 @@
 
 
 <style>
-.banner-card {
-    width:900px;
-    height:300px;
-    background-color: white;
-    z-index: 30;
+
+   .block-hero-3 > .container {
+        position: -webkit-sticky;
+  position: sticky;
+  top:120px;
+    }
+    /* .video-overlay {
+        z-index: -10;
+        position: relative;
+    } */
+    .block-hero-3 video {
+        opacity: .9;
+
+    }
+.block-hero-3 .banner-card {
+
+  position: absolute;
+  top:0;
+    /* top: 200px; */
+    left:140px;
+    width:700px;
+    height:auto;
+    background-color:#eeeeee;
+    /* opacity: .8; */
+    color:black;
+    text-align: left;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.block-hero-3 .banner-card > p {
+    color:black;
+
 }
 </style>
