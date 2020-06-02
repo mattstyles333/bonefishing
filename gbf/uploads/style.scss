@@ -194,7 +194,7 @@ input.inverted::placeholder {
 }
 .block-header-2--logo img {
   max-height: 24px;
-  max-height: 3rem;
+  // max-height: 3rem;
   /* Convert logo to primary color #18404E */
   filter: invert(19%) sepia(44%) saturate(709%) hue-rotate(149deg) brightness(92%) contrast(90%);
   
@@ -277,14 +277,21 @@ input.inverted::placeholder {
   min-height: 90vh;
   background-color: $pc;
   color: var(--text);
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: 100%;
+
+  padding:0;
+}
+.block-hero-2 > .video-overlay  > video{
+  max-width: 100%;
+  max-height: 90vh;
+  z-index: -1;
+}
+.block-hero-2 > .video-overlay  {
+float:right;
 }
 .block-hero-2,
 .block-hero-2 .columns {
-  display: -ms-flexbox;
-  display: flex;
+  // display: -ms-flexbox;
+  // display: flex;
   -ms-flex-align: center;
   align-items: center;
 }

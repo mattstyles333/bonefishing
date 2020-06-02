@@ -6,6 +6,7 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   logo: "/gbf/uploads/bonefish-logo.png"
+  logo-text: "The Great Bonefishing Company"
   navigation:
   - link: "/"
     link_text: Home
