@@ -1,0 +1,46 @@
+<section class="block block-hover-gallery">
+<div class="slide">
+    <div class="content">
+        <h2>{{ section.header1}}</h2>
+        <p>{{section.text1}}</p>
+    </div>
+</div>
+
+<div class="slide">
+    <div class="content">
+        <h2>{{ section.header2}}</h2>
+        <p>{{section.text2}}</p>
+    </div>
+</div>
+
+<div class="slide">
+    <div class="content">
+        <h2>{{ section.header3}}</h2>
+        <p>{{section.text3}}</p>
+    </div>
+</div>
+
+<div class="slide">
+    <div class="content">
+        <h2>{{ section.header4}}</h2>
+        <p>{{section.text4}}</p>
+    </div>
+</div>
+
+
+</section>
+<style>
+.slide:nth-child(1) {
+background: url({{ section.img1 }});
+}
+.slide:nth-child(2) {
+background: url({{ section.img2 }});
+}
+.slide:nth-child(3) {
+background: url({{ section.img3 }});
+}
+.slide:nth-child(4) {
+background: url({{ section.img4 }});
+}
+
+</style>

@@ -87,6 +87,7 @@ page_sections:
   col_3: "Footer col2"
   col_4: "Footer col3"
 
+
 # - template: full-width-media-element
 #   block: gallery
 #   parralax: false
