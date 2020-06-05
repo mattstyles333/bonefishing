@@ -20,7 +20,7 @@ page_sections:
     url: "/"
     button_text: Enquire
 - template: hero-banner-w-image
-  block: hero-3
+  block: hero-2
   headline: 'Great Bonefishing '
   content: Discover the fabulous wading flats of North Caicos
   cta:
@@ -28,7 +28,7 @@ page_sections:
     url: "/content"
     button_text: Enquire
   hp: true
-  video: "/gbf/uploads/hooked.mp4"
+  background_image: "/gbf/uploads/hooked.webp"
 - template: content-feature
   block: feature-1
   media_alignment: Left
