@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -120,7 +121,7 @@ p {
 
 .button.medium {
   font-size: 9.6px;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   padding: 8px 16px;
   padding: 0.5rem 1rem;
 }
@@ -285,6 +286,112 @@ input.inverted::placeholder {
 }
 
 .block-header-2--cta {
+  margin-left: 32px;
+  margin-left: 2rem;
+}
+
+.block-header-4 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 16px 32px;
+  padding: 1rem 2rem;
+}
+
+.block-header-4--logo img {
+  max-height: 3rem;
+  /* Convert logo to primary color #18404E */
+  -webkit-filter: invert(19%) sepia(44%) saturate(709%) hue-rotate(149deg) brightness(92%) contrast(90%);
+          filter: invert(19%) sepia(44%) saturate(709%) hue-rotate(149deg) brightness(92%) contrast(90%);
+}
+
+.block-header-4--nav {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: baseline;
+  -webkit-box-align: baseline;
+          align-items: baseline;
+}
+
+.logo-name-container {
+  display: inline-block;
+}
+
+.logo-name-container .block-logo-text {
+  position: relative;
+  z-index: 1;
+}
+
+.email-phone {
+  padding-left: 15px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  text-align: center;
+}
+
+.email-phone a {
+  text-decoration: none;
+  color: #18404E;
+}
+
+.email-phone:hover {
+  color: #00A9A5;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.email-phone a:hover {
+  color: #00A9A5;
+}
+
+.block-header-4--logo a {
+  text-decoration: none;
+}
+
+.block-header-4 .nav-item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 16px;
+  margin-right: 1rem;
+  font-size: 13.6px;
+  font-size: 1.5rem;
+}
+
+.block-header-4 .nav-item.active a {
+  color: #00A9A5;
+  font-weight: bold;
+}
+
+.block-header-4 .nav-item a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 1.5rem;
+}
+
+.block-header-4 .nav-item a:hover {
+  color: #00A9A5;
+}
+
+.block-header-4 .nav-item.active a:hover {
+  color: #18404E;
+}
+
+.block-header-4 .nav-item:last-of-type {
+  margin: 0;
+}
+
+.block-header-4--cta {
   margin-left: 32px;
   margin-left: 2rem;
 }
@@ -1037,7 +1144,7 @@ input.inverted::placeholder {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Josefin Sans', sans-serif, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
 }
 

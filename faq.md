@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Journey
+title: FAQ
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
@@ -28,30 +28,33 @@ page_sections:
   cta:
     enabled: true
     url: "/pricing"
-    button_text: Content Page CTA text
+    button_text: Pricing Page CTA text
   hp: false
   background_image: "/gbf/uploads/biggy.jpeg"
 
-- template: text-1
-  block: text-1
-  headline: Our goal is to get you on the fish as quickly and easily as possible!
-  content: While it may sound complicated, we'll be there to walk you through every step- at the end of the day it actually saves us a serious amount on unneccessary fuel.
-  
-- template: hover-gallery
-  block: hover-gallery
-  img1: "/gbf/uploads/ferry.jpg"
-  header1: Step 1
-  text1: text1
-  img2: "/gbf/uploads/maps.png"
-  header2: Step 2
-  text2: text1text1text1text1 text1text1text1text1 text1text1 text1text1text1text1 text1text1text1text1 text1text1 text1text1text1text1 text1text1text1text1 text1text1text1text1text1text1 text1text1text1text1 text1text1text1text1text1text1 text1text1text1text1 text1text1
-  img3: "/gbf/uploads/lodge-on-bottle-creek.jpg"
-  header3: Step 3
-  text3: text1
-  img4: "/gbf/uploads/bonefish-guide.jpg"
-  header4: Step 4
-  text4: text4
 
+- template: faq
+  block: faq
+  questions:
+  - q: Sampel Question
+    a: Answer
+  - q: Sample Question2
+    a: Answer
+  - q: Sampel Question
+    a: Answer
+  - q: Sample Question2
+    a: Answer
+  - q: Sampel Question
+    a: Answer
+  - q: Sample Question2
+    a: Answer
+  - q: Sampel Question
+    a: Answer
+  - q: Sample Question2
+    a: Answer
+- template: form
+  block: form
+  cta: How can we help you get out on the flats fishing?
 - template: simple-footer
   block: footer-2
   content: Footer goes here 

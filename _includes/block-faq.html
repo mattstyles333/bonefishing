@@ -1,0 +1,28 @@
+<section class="block block-faq">
+    <div class="flex-div">
+        {% for question in section.questions %}
+        <div class="card">
+    <h2>{{ question.q }}</h2>
+
+    <div class=answer>{{ question.a }}</div>
+</div>
+{% endfor %}
+    </section>
+    <style>
+        .flex-div {
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .card {
+            padding:30px;
+            width:50%;
+        }
+        .block-faq h2 {
+            font-weight: 400;
+        }
+        
+        .answer {
+            font-size: larger;
+        } /*Style the answer as you wish*/
+        
+        </style>

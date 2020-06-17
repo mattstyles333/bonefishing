@@ -4,7 +4,7 @@ title: Homepage
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
-  block: header-2
+  block: header-4
   logo: "/gbf/uploads/bonefish-logo.png"
   logo-text: The Great Bonefishing Company
   navigation:
@@ -12,9 +12,9 @@ page_sections:
     link_text: Home
   - link: "#features"
     link_text: Fishing
-  - link: "#pricing"
+  - link: "/pricing"
     link_text: Pricing
-  - link: "#team"
+  - link: "/lodge"
     link_text: Lodge
   cta:
     url: "/"
@@ -25,7 +25,7 @@ page_sections:
   content: Discover the wading flats of North Caicos
   cta:
     enabled: true
-    url: "/content"
+    url: "#contact-form"
     button_text: Inquire
   hp: true
   background_image: "/gbf/uploads/hooked.webp"

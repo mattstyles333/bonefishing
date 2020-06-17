@@ -1,10 +1,10 @@
 ---
 layout: blocks
-title: Content Page
+title: Lodge
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
-  block: header-2
+  block: header-4
   logo: "/gbf/uploads/bonefish-logo.png"
   logo-text: "The Great Bonefishing Company"
   navigation:
@@ -21,7 +21,7 @@ page_sections:
     button_text: Book Now
 - template: hero-banner-w-image
   block: hero-2
-  headline: Content Page Text
+  headline: Lodge Page Text
   content: We specialize in the best bonefishing around.
   cta:
     enabled: true
