@@ -31,5 +31,8 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
+  - sticky
+  - sticky-flip
+  - form
 pages:
 - index.md
