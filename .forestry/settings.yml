@@ -21,10 +21,10 @@ sections:
 - type: document
   path: _config.yml
   label: Config
-upload_dir: gbf/uploads
+upload_dir: ''
 public_path: gbf/uploads
-front_matter_path: gbf/uploads
-use_front_matter_path: true
+front_matter_path: ''
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
