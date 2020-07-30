@@ -27,7 +27,7 @@ page_sections:
     url: "#contact-form"
     button_text: Inquire
   hp: true
-  background_image: "/gbf/uploads/hooked.webp"
+  background_image: "https://res.cloudinary.com/dnusbqa4z/image/upload/v1596117811/hooked_knkil1.webp"
 - template: content-feature
   block: feature-1
   media_alignment: Left
