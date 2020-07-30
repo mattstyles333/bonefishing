@@ -27,7 +27,7 @@ page_sections:
     url: "#contact-form"
     button_text: Inquire
   hp: true
-  background_image: "https://res.cloudinary.com/dnusbqa4z/image/upload/v1596117811/hooked_knkil1.webp"
+  background_image: "https://res.cloudinary.com/greatfishing/image/upload/v1596117811/hooked_knkil1.webp"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -39,7 +39,7 @@ page_sections:
     land at Sandy Point North Caicos, we meet and transport you to the lodge for the
     start of the days fishing and transport you back to the dock for your return trip.<br><br> '
   media:
-    image: "/gbf/uploads/waterbone.jpg"
+    image: "https://res.cloudinary.com/greatfishing/image/upload/v1596118651/waterbone_gtslca.jpg"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
@@ -51,7 +51,7 @@ page_sections:
     - ideal for stalking tailing fish..............others are wide and sandy so that
     you can see schools of bonefish meandering across from a distance away.
   media:
-    image: "/gbf/uploads/maps.png"
+    image: "https://res.cloudinary.com/greatfishing/image/upload/v1596118635/maps_bakliy.png"
     alt_text: Customize Blocks
 - template: content-feature
   block: feature-1
@@ -65,7 +65,7 @@ page_sections:
     shore of the flats with full use of kayaks so that you can choose where and when
     to fish at your leisure
   media:
-    image: "/gbf/uploads/lodge-on-bottle-creek.jpg"
+    image: "https://res.cloudinary.com/greatfishing/image/upload/v1596118632/lodge-on-bottle-creek_zxitfh.jpg"
     alt_text: uBuild Blocks Mock-Up
 - template: form
   block: form
@@ -73,7 +73,7 @@ page_sections:
 - template: simple-footer
   block: footer-2
   content: Footer goes here
-  logo: "/gbf/uploads/bonefish-logo.png"
+  logo: "https://res.cloudinary.com/greatfishing/image/upload/v1596118603/bonefish-logo_idgsje.png"
   col_2: Footer col1
   col_3: Footer col2
   col_4: Footer col3
